@@ -1,0 +1,3 @@
+query PageCount($limit:Int!, $category:[String!]!){
+  pageCount(limit: $limit, category:$category)
+}

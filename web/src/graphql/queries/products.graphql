@@ -1,0 +1,9 @@
+query Products($limit: Int! $offset:Int!, $category:String) {
+  products(limit: $limit, offset: $offset, category:$category) {
+    id
+    name
+    price
+    quantity
+    description
+  }
+}
